@@ -757,6 +757,7 @@ module.exports = function (request, responseCallback) {
         method: request.method,
         url: request.url,
         dataType: request.dataType || undefined,
+    	forceCellularNetwork: true,
         header: request.headers,
         data: request.body || {},
         responseType: request.responseType || 'text',
